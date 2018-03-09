@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h1>Calculator</h1>
+            <div class="inputArea">
+                <input type="text" name="text2" id="txt2" placeholder="0">
+                <input type="text" name="text1" id="txt1">
+                <input type="text" name="text2" id="txt3">
+            </div>
+            <div class="buttons">
+                    <button id="i7" onclick="iseven();">7</button>
+                    <button id="i8" onclick="ieight();">8</button>
+                    <button id="i9" onclick="inine();">9</button>
+                    <button id="ce" onclick="cl();">CE</button>
+                    <button id="i4" onclick="ifour();">4</button>
+                    <button id="i5" onclick="ifive();">5</button>
+                    <button id="i6" onclick="isix();">6</button>
+                    <button id="div" onclick="div();">/</button>
+                    <button id="i1" onclick="ione();">1</button>
+                    <button id="i2" onclick="itwo();">2</button>
+                    <button id="i3" onclick="ithree();">3</button>
+                    <button id="mul" onclick="mul();">x</button>
+                    <button id="i0" onclick="izero();">0</button>
+                    <button id="ip" onclick="ipoint();">.</button>
+                    <button id= "d0" onclick="dozero();">00</button>
+                    <button id="sub" onclick="sub();">-</button>
+                    <button id="equal" onclick="operate();">=</button>
+                    <button id="add" onclick="add();">+</button>
+                    
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
